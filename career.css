@@ -1,0 +1,592 @@
+*
+{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.nav-section
+{
+    height: 70px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.nav-section-logo
+{
+    height: 50px;
+    width: 150px;
+    display: flex;
+    margin-right: 500px;
+}
+
+.logo
+{
+    background-image: url("images/amazonjob_logo.png");
+    background-size: cover;
+    height: 70px;
+    width: 100%;
+}
+
+.nav-section-logo i 
+{
+    padding-top: 35px;
+}
+
+.nav-section p
+{
+    font-weight: 550;
+}
+
+.nav-section-career
+{
+    margin-left: 500px;
+    padding-top: 30px;
+}
+
+.nav-section-two
+{
+    width: 100%;
+    height: 400px;
+    background-color: #0f1111;
+    color: white;
+}
+
+.nav-section-info
+{
+    background-color: rgb(233, 185, 97);
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-weight: 540;
+}
+
+.search-input
+{
+    width: 40%;
+    font-size: 1rem;
+    border: none;
+    margin-left: 100px;
+    margin-top: 30px;
+    height: 40px;
+}
+
+.nav-search
+{
+    display: flex;
+}
+
+.search-location
+{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    margin-left: 1px;
+    margin-top: 30px;
+}
+
+.nav-location-icon
+{
+    color: white;
+    width: 40px;
+    height: 20px;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.nav-search-icon
+{
+    background-color: orange;
+    color: white;
+    width: 30px;
+    height: 25px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.img-add-class img
+{
+    width: 70%;
+    height: 100%;
+    padding-left: 300px;
+    padding-top: 10px;
+}
+
+.img-add-class
+{
+    margin-top: 40px;
+}
+
+.main-section
+{
+    background-color: rgb(228, 237, 240);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.box
+{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    text-align: center;
+    border: 0.2px solid orange;
+}
+
+.box-content
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.box-content button
+{
+    background-color: white;
+    border: 2px solid darkgray;
+    width: 200px;
+    height: 50px;
+}
+
+button:hover
+{
+    border: 2px solid rgb(176, 176, 224);
+    background-color: darkgray;
+    cursor: pointer;
+}
+
+.box:hover
+{
+    border: 1px solid darkgrey;
+}
+
+.main-section-two
+{
+    width: 100%;
+    height: 550px;
+    background-color: white;
+}
+
+.text
+{
+ background-color: white;
+ width: 250px;
+ height: 40px;
+ margin-left: 550px;
+}
+
+
+.box-2
+{
+    height: 450px;
+    width: 23%;
+    background-color: white;
+    padding-top: 50px;
+    margin-top: 50px;
+    text-align: center;
+    border: 0.2px solid orange;
+}
+
+.box-2-content
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.box-2-content img
+{
+    width: 280px;
+}
+.box-2:hover
+{
+    border: 1px solid darkgrey;
+}
+
+.main-section-three
+{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(5, 97, 136);
+    color: white;
+    font-weight: 540;
+    text-align: left;
+}
+
+.main-section-three button
+{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(5, 97, 136);
+    color: white;
+    border: 1px solid white;
+}
+
+button:hover
+{
+    cursor: pointer;
+    background-color: white;
+    color: rgb(5, 97, 136);
+}
+
+.footer-class
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(38, 32, 61);
+}
+.footer-follow
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(38, 32, 61);
+    color: white;
+    text-align: center;
+}
+
+.footer-follow p
+{
+    color: orange;
+}
+
+
+.box-3
+{
+    height: 450px;
+    width: 23%;
+    padding-top: 50px;
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer-help-panel
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(38, 32, 61);
+    color: white;
+    margin-top: 0px;
+}
+
+.footer-help-panel h4
+{
+    color: orange;
+}
+
+.footer-line
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(38, 32, 61);   
+    color: white;
+    margin-top: 0px;
+}
+
+.footer-copyright
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(38, 32, 61);  
+    color: white;
+    margin-top: 0px;
+}
+
+@media screen and (max-width: 1024px)
+{
+    .nav-section
+    {
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    .nav-section-logo
+    {
+        margin-right: 0;
+        width: 180px;
+    }
+
+    .nav-section-career
+    {
+        margin-left: 0;
+    }
+
+    .nav-search
+    {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .search-input
+    {
+        width: 80%;
+        margin-left: 0;
+    }
+
+    .nav-location-icon
+    {
+        margin-left: 0;
+    }
+
+    .search-location
+    {
+        width: 250px;
+    }
+
+    .img-add-class img
+    {
+        width: 90%;
+        padding-left: 5%;
+        height: auto;
+    }
+
+    .main-section
+    {
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .box,
+    .box-2
+    {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+
+    .text
+    {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .main-section-two
+    {
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .main-section-three
+    {
+        height: auto;
+        padding: 30px;
+    }
+
+    .footer-help-panel
+    {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .box-3
+    {
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+
+
+@media screen and (max-width: 768px)
+{
+    .nav-section
+    {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .nav-section-logo
+    {
+        width: 100%;
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .logo
+    {
+        width: 180px;
+        background-position: center;
+    }
+
+    .nav-section-career
+    {
+        margin-left: 0;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .nav-section-two
+    {
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .nav-section-info
+    {
+        height: auto;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .nav-search
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search-input
+    {
+        width: 90%;
+        margin: 20px 0 0 0;
+    }
+
+    .nav-location-icon
+    {
+        margin: 10px 0 0 0;
+    }
+
+    .nav-location
+    {
+        width: 90%;
+    }
+
+    .search-location
+    {
+        width: 100%;
+        height: 40px;
+        margin-top: 0;
+    }
+
+    .nav-search-icon
+    {
+        margin: 10px 0 0 0;
+        width: 50px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-add-class
+    {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .img-add-class img
+    {
+        width: 95%;
+        padding-left: 0;
+    }
+
+    .main-section
+    {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    .box,
+    .box-2
+    {
+        width: 90%;
+        height: auto;
+    }
+
+    .box-content button,
+    .main-section-three button
+    {
+        width: 100%;
+    }
+
+    .box-2-content img
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    .text
+    {
+        width: 100%;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .main-section-two
+    {
+        height: auto;
+    }
+
+    .main-section-three
+    {
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .footer-follow
+    {
+        padding: 20px 10px;
+    }
+
+    .footer-help-panel
+    {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .box-3
+    {
+        width: 100%;
+        height: auto;
+        padding-top: 20px;
+        margin-top: 0;
+        flex-direction: column;
+    }
+
+    .footer-line,
+    .footer-copyright
+    {
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 480px)
+{
+    .search-input,
+    .search-location
+    {
+        font-size: 14px;
+    }
+
+    .box-content h2,
+    .box-2-content h2
+    {
+        font-size: 22px;
+    }
+
+    .main-section-three h1
+    {
+        font-size: 28px;
+    }
+
+    .footer-help-panel ul
+    {
+        padding-left: 0;
+    }
+}

@@ -23,7 +23,7 @@
 
 .logo
 {
-    background-image: url("amazon_logo.png");
+    background-image: url("images/amazon_logo.png");
     background-size: cover;
     height: 50px;
     width: 100%;
@@ -188,17 +188,6 @@
     font-weight: 700;
 }
 
-/* .hero-section
-{
-    background-image: url("hero_image.jpg");
-    background-size: cover;
-    height: 400px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-
-} */
 
 .hero-message
 {
@@ -209,6 +198,21 @@
     justify-content: center; 
     font-size: 14px;
     position: relative;
+}
+
+.hero-section-img img
+{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.home-image
+{
+    width: 100%;
+    height: 600px;
 }
 
 .hero-message a
@@ -228,6 +232,7 @@
     background-color: #e2e7e6;
     flex-wrap: wrap;
 }
+
 .box
 {
     height: 400px;
@@ -292,7 +297,7 @@
 .action p{
     padding-top: 30px;
     padding-bottom: 5px;
-    margin-left: 45%;
+    margin-left: 41%;
     font-size: 12px;
     font-weight: 100;
 }
@@ -300,23 +305,21 @@
 .action button
 {
     background-color: #f6c501;
-    border: 1px solid #f8b50c;
-    border-radius: 3px;
+    border: 2px solid #f8b50c;
+    border-radius: 50px;
     margin-left: 43%;
     padding: 5px;
-    width: 240px;
+    width: 140px;
     cursor: pointer;
     text-decoration: none;
 }
 
-.action.link
+.link p
 {
-    padding-top: px;
-    margin-left: 47%;
-    padding-left: 400px;
+   
 }
 
-.action.link span
+.link span
 {
     color: #009999;
 }
@@ -337,6 +340,11 @@
     background-color: black;
     color: white;
     text-align: center;
+}
+
+.foot-panel1 a
+{
+    color: white;
 }
 
 .foot-panel2
@@ -387,6 +395,13 @@ ul{
     font-weight: 540;
 }
 
+.logo
+{
+    background-image: url("images/amazonjob_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
 
 
 /* Tablets (max-width: 1024px) */
@@ -396,8 +411,14 @@ ul{
         width: 400px;
     }
 
-    .box {
+    .box{
         width: 45%; 
+    }
+
+    .hero-section-img img
+    {
+        width: 100%;
+        height: 450px;
     }
 
     .panel-options {
@@ -451,7 +472,7 @@ ul{
         display: none;
     }
 
-    .hero-message {
+    .hero-message{
         font-size: 12px;
         text-align: center;
         padding: 10px;
