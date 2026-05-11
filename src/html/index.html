@@ -9,14 +9,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/src/style/style.css">
 </head>
 
 <body>
     <header>
         <div class="navbar">
             <div class="nav-logo border">
-                <div class="logo"></div>
+                <div class="logo">
+                    <img src="/assets/Images/amazon_logo.png">
+                </div>
             </div>
 
             <div class="nav-address border">
@@ -56,7 +58,8 @@
             <div class="nav-cart">
                 <div class="cart-icon">
                     <i class="fa-solid fa-cart-arrow-down"></i>
-                    <h4>Cart</h4>
+                    <a href="/src/html/cart.html" target="_main"><h4>Cart</h4></a>
+                    <span id = "cart-count">0</span>
                 </div>
             </div>
         </div>
@@ -78,19 +81,19 @@
                 <p>Shop Deals in Electronics</p>
             </div>
         </div>
-
+    </header>
+    
+    <div class="main">
         <div class="hero-section">
             <div class="hero-section-img">
                 <div class="image-class">
-                        <img src="Images/hero_image.jpg">
-                <img src="Images/Bottle_image.png">
-                <img src="Images/Grocery_image.png">
+                        <img src="/assets/Images/hero_image.jpg">
                 </div>
                 
             </div>
-            .
+            
                 <div class="hero-message">
-                <h5>You are Welcome to amazon.com where miilions of Indians shop. </h5><a href="/signin.html" target="_main"><h5>Click here to walk in amazon.com </a>
+                <h5>You are Welcome to amazon.com where miilions of Indians shop. </h5><a href="/src/html/signin.html" target="_main"><h5>Click here to walk in amazon.com </a>
             </div>
         </div>
         
@@ -100,7 +103,7 @@
                 <div class="box-content">
                     <h2>HEALTH AND PERSONAL CARE</h2>
                     <a href="https://www.amazon.in/health-and-personal-care/b?ie=UTF8&node=1350384031" target = "_main">
-                        <div class="box-img" style="background-image: url('Images/box1_image.jpg');">
+                        <div class="box-img" style="background-image: url('/assets/Images/box1_image.jpg');">
                         </div>
                     </a>
                     <p>See more</p>
@@ -111,7 +114,7 @@
                 <div class="box-content">
                     <h2>KITCHEN ITEMS</h2>
                     <a href="https://www.amazon.in/Kitchen-Dining-Store/b?ie=UTF8&node=5925789031" target="_main">
-                        <div class="box-img" style="background-image: url('Images/box2_image.png');">
+                        <div class="box-img" style="background-image: url('/assets/Images/box2_image.png');">
                         </div>
                     </a>    
                     <p>See more</p>
@@ -122,7 +125,7 @@
                 <div class="box-content">
                     <h2>FURNITURE</h2>
                     <a href="https://www.amazon.in/Living-Room-Furniture/b?ie=UTF8&node=5689444031" target="_main">
-                    <div class="box-img" style="background-image: url('Images/box3_image.jpg');">
+                    <div class="box-img" style="background-image: url('/assets/Images/box3_image.jpg');">
                     </div>
                     </a>
                     <p>See more</p>
@@ -133,7 +136,7 @@
                 <div class="box-content">
                     <h2>ELECTRONICS</h2>
                     <a href="https://www.amazon.in/b?ie=UTF8&node=27060450031" target="_main">
-                    <div class="box-img" style="background-image: url('Images/box4_image.jpg');">
+                    <div class="box-img" style="background-image: url('/assets/Images/box4_image.jpg');">
                     </div>
                     </a>
                     <p>See more</p>
@@ -144,7 +147,7 @@
                 <div class="box-content">
                     <h2>MAKEUP</h2>
                     <a href="https://www.amazon.ae/Fenshine-Starter-Portable-Eyeshadow-Foundation/dp/B0BVVLT5Y2?th=1" target="_main">
-                    <div class="box-img" style="background-image: url('Images/box5_image.jpg');">
+                    <div class="box-img" style="background-image: url('/assets/Images/box5_image.jpg');">
 
                     </div>
                     </a>
@@ -157,7 +160,7 @@
                 <div class="box-content">
                     <h2>PET FOOD</h2>
                     <a href="https://www.amazon.in/Velvet-Linen-Basics-Bedroom-Bedside/dp/B08QMHRPTH" target="_main">
-                    <div class="box-img" style="background-image: url('Images/box6_image.jpg');">
+                    <div class="box-img" style="background-image: url('/assets/Images/box6_image.jpg');">
 
                     </div>
                    </a> 
@@ -170,7 +173,7 @@
                 <div class="box-content">
                     <h2>TOYS</h2>
                     <a href="https://www.amazon.in/FunMom-Amz-Sensory-Treasure-Stuffers-Classroom/dp/B0B54QPFJ6" target="_main">
-                    <div class="box-img" style="background-image: url('Images/box7_image.jpg');">
+                    <div class="box-img" style="background-image: url('/assets/Images/box7_image.jpg');">
 
                     </div>
                     </a>
@@ -183,7 +186,7 @@
                 <div class="box-content">
                     <h2>ACCESSORIES</h2>
                     <a href="https://www.amazon.in/Aspire-Beautiful-Squares-Accessories-Hairpins/dp/B08SHQ1RYR?th=1" target="_main">
-                    <div class="box-img" style="background-image: url('Images/box8_image.jpg');">
+                    <div class="box-img" style="background-image: url('/assets/Images/box8_image.jpg');">
 
                     </div>
                     </a>
@@ -192,6 +195,24 @@
             </div>
         </div>
 
+      <div class="products-section">
+        <div class="product-info">
+            <h3>UPTO 40% OFF| Best Deals on ELECTRONICS</h3> <p >Explore More</p>
+        </div>
+      </div>
+
+      <div class="info">
+            <h3>NCRT Books Available</h3> <p>See All</p>
+      </div>
+
+      <div class="books-slider-section">
+        <button class="prev-btn"><-</button>
+            <div class="books-wrapper">
+                <div class="books-section"></div>
+            </div>
+            <button class = "next-btn">-></button>
+      </div>
+
         <div class="rhf-frame">
             <div class="rhf-container">
                 <div class="rhf-border">
@@ -199,24 +220,24 @@
                         <p>
                             See Personalized Recommendations
                         </p>
-                        <button><a href="signin.html" target="_main"> Sign In</a></button>
-                        <p class="link">New Customer? <a href="signin.html"><span>Start here</span></a></p>
+                        <button>Sign In</a></button>
+                        <p class="link">New Customer? <a href="/src/html/signin.html"><span>Start here</span></a></p>
                     </div>
                 </div>
          </div>
             
         </div>
-    </header>
+    </div>    
 
     <footer>
         <div class="foot-panel1">
-            <a href="index.html">Back to top</a>
+            <a href="/src/html/index.html">Back to top</a>
         </div>
 
         <div class="foot-panel2">
             <ul>
                 <P>Get to Known Us</P>
-                <a href="career.html" target="_main">career</a>
+                <a href="/src/html/career.html" target="_main">career</a>
                 <a href="https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer" target="_main">About Amazon</a>
                 <a href="https://press.aboutamazon.com/press-release-archive" target="_main">Press Releases</a>
                 <a href="https://www.amazon.science/" target="_main">Amazon Science</a>
@@ -269,5 +290,7 @@
         </div>
 
     </footer>
+
+    <script src="/src/script/script.js"></script>
 </body>
 </html>

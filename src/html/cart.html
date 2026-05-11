@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+
+    <link rel="stylesheet" href="/src/style/cart.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+   <body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo">
+                    <img src="/assets/Images/amazon_logo.png">
+                </div>
+            </div>
+
+            <div class="nav-address border">
+                <p class = "address">Deliver To</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot" width="20"></i>
+                    <p><h1>India</h1></p>
+                </div>
+            </div>
+
+            <div class="nav-search">
+                <select class="search-select">
+                    <i class="fa-solid fa-angle-down"></i>
+                    <option>All</option>
+                </select>
+                <input placeholder="Search Amazon product" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <div class="nav-language">
+                <i class="fa-solid fa-angle-down"></i>
+                <img src ="https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg" width=25px>
+                <p>IN</p>
+            </div>
+            <div class="nav-signin border">
+                <p>Hello, Sign In</p>
+                <h1>Account & Lists <i class="fa-solid fa-angle-down"></i></h1>
+                
+            </div>
+
+            <div class="nav-return border">
+                <p>Returns></p>
+                <h1>& Order</h1>
+            </div>
+            <div class="nav-cart border">
+                <div class="cart-icon">
+                    <i class="fa-solid fa-cart-arrow-down"></i>
+                    <a href="/src/html/cart.html" target="_main"><h4>Cart</h4></a>
+                    <span id = "cart-count">0</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-all">
+                <pre><i class="fa-solid fa-bars"> </i>All</pre>
+                
+            </div>
+            <div class="panel-options">
+                <p>Today's Deals</p>
+                <p>Customer Service</p>
+                <p>Registery</p>
+                <p>Gift Cards</p>
+                <p>Sell</p>
+            </div>
+
+            <div class="panel-deals">
+                <p>Shop Deals in Electronics</p>
+            </div>
+        </div>
+    </header>
+    
+    <div class="main">
+        <div class="cart-page">
+    <div class="cart-left">
+        <div class="cart-section">
+            <div class="cart-info">
+                <h1>Shopping Cart</h1>
+                <hr>
+                
+                <div class="cart-product">
+                    <img src="/assets/Images/headphone_image.png">
+                    <div class="product-details">
+                        <h2>Boat Headphones</h2>
+                        <p>In Stock</p>
+                        <h3>₹1,999</h3>
+                        <button>Delete</button>
+                    </div>
+                </div>
+                <hr>
+                
+                <div class="cart-product">
+                    <img src="/assets/Images/iphone_image.png">
+                    <div class="product-details">
+                        <h2>iPhone 15</h2>
+                        <p>In Stock</p>
+                        <h3>₹89,999</h3>
+                        <button>Delete</button>
+                    </div>
+                </div>
+                <hr>
+                <h3 class="subtotal">
+                    Subtotal (2 items): ₹91,998
+                </h3>
+            </div>
+        </div>
+    </div>
+</div>
+        
+
+        <div class="shop-section">
+            <div class="box1 box">
+                <div class="box-content">
+                    <h2>HEALTH AND PERSONAL CARE</h2>
+                    <a href="https://www.amazon.in/health-and-personal-care/b?ie=UTF8&node=1350384031" target = "_main">
+                        <div class="box-img" style="background-image: url('/assets/Images/box1_image.jpg');">
+                        </div>
+                    </a>
+                    <p>See more</p>
+                </div>
+            </div>
+
+            <div class="box2 box">
+                <div class="box-content">
+                    <h2>KITCHEN ITEMS</h2>
+                    <a href="https://www.amazon.in/Kitchen-Dining-Store/b?ie=UTF8&node=5925789031" target="_main">
+                        <div class="box-img" style="background-image: url('/assets/Images/box2_image.png');">
+                        </div>
+                    </a>    
+                    <p>See more</p>
+                </div>
+            </div>
+
+            <div class="box3 box">
+                <div class="box-content">
+                    <h2>FURNITURE</h2>
+                    <a href="https://www.amazon.in/Living-Room-Furniture/b?ie=UTF8&node=5689444031" target="_main">
+                    <div class="box-img" style="background-image: url('/assets/Images/box3_image.jpg');">
+                    </div>
+                    </a>
+                    <p>See more</p>
+                </div>
+            </div>
+
+            <div class="box4 box">
+                <div class="box-content">
+                    <h2>ELECTRONICS</h2>
+                    <a href="https://www.amazon.in/b?ie=UTF8&node=27060450031" target="_main">
+                    <div class="box-img" style="background-image: url('/assets/Images/box4_image.jpg');">
+                    </div>
+                    </a>
+                    <p>See more</p>
+                </div>
+            </div>
+
+            <div class="box4 box">
+                <div class="box-content">
+                    <h2>MAKEUP</h2>
+                    <a href="https://www.amazon.ae/Fenshine-Starter-Portable-Eyeshadow-Foundation/dp/B0BVVLT5Y2?th=1" target="_main">
+                    <div class="box-img" style="background-image: url('/assets/Images/box5_image.jpg');">
+
+                    </div>
+                    </a>
+                    <p>See more</p>
+                </div>
+            </div>
+
+
+            <div class="box4 box">
+                <div class="box-content">
+                    <h2>PET FOOD</h2>
+                    <a href="https://www.amazon.in/Velvet-Linen-Basics-Bedroom-Bedside/dp/B08QMHRPTH" target="_main">
+                    <div class="box-img" style="background-image: url('/assets/Images/box6_image.jpg');">
+
+                    </div>
+                   </a> 
+                    <p>See more</p>
+                </div>
+            </div>
+
+
+            <div class="box4 box">
+                <div class="box-content">
+                    <h2>TOYS</h2>
+                    <a href="https://www.amazon.in/FunMom-Amz-Sensory-Treasure-Stuffers-Classroom/dp/B0B54QPFJ6" target="_main">
+                    <div class="box-img" style="background-image: url('/assets/Images/box7_image.jpg');">
+
+                    </div>
+                    </a>
+                    <p>See more</p>
+                </div>
+            </div>
+
+
+            <div class="box4 box">
+                <div class="box-content">
+                    <h2>ACCESSORIES</h2>
+                    <a href="https://www.amazon.in/Aspire-Beautiful-Squares-Accessories-Hairpins/dp/B08SHQ1RYR?th=1" target="_main">
+                    <div class="box-img" style="background-image: url('/assets/Images/box8_image.jpg');">
+
+                    </div>
+                    </a>
+                    <p>See more</p>
+                </div>
+            </div>
+        </div>
+
+      <div class="products-section">
+        <div class="product-info">
+            <h3>UPTO 40% OFF| Best Deals on ELECTRONICS</h3> <p >Explore More</p>
+        </div>
+      </div>
+
+      <div class="info">
+            <h3>NCRT Books Available</h3> <p>See All</p>
+      </div>
+
+      <div class="books-slider-section">
+        <button class="prev-btn"><-</button>
+            <div class="books-wrapper">
+                <div class="books-section"></div>
+            </div>
+            <button class = "next-btn">-></button>
+      </div>
+
+        <div class="rhf-frame">
+            <div class="rhf-container">
+                <div class="rhf-border">
+                    <div class="action">
+                        <p>
+                            See Personalized Recommendations
+                        </p>
+                        <button>Sign In</a></button>
+                        <p class="link">New Customer? <a href="/src/html/signin.html"><span>Start here</span></a></p>
+                    </div>
+                </div>
+         </div>
+            
+        </div>
+    </div>    
+
+    <footer>
+        <div class="foot-panel1">
+            <a href="/src/html/index.html">Back to top</a>
+        </div>
+
+        <div class="foot-panel2">
+            <ul>
+                <P>Get to Known Us</P>
+                <a href="/src/html/career.html" target="_main">career</a>
+                <a href="https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer" target="_main">About Amazon</a>
+                <a href="https://press.aboutamazon.com/press-release-archive" target="_main">Press Releases</a>
+                <a href="https://www.amazon.science/" target="_main">Amazon Science</a>
+            </ul>
+
+            <ul>
+                <P>Connect With Us</P>
+                <a href="https://www.facebook.com/AmazonIN" target="_main">Facebook</a>
+                <a href="https://x.com/AmazonIN" target="_main">Twitter</a>
+                <a href="https://www.instagram.com/amazondotin" target="_main">Instagram</a>
+            </ul>
+
+
+
+            <ul>
+                <p>Make Money with Us</p>
+                    <a href="https://www.amazon.in/b/?node=2838698031&ld=AZINSOANavDesktopFooter_C&ref_=nav_footer_sell_C" target="_main">Sell on Amazon</a>
+                    <a href="https://www.amazon.in/b/?node=16192220031&ref_=map_1_b2b_GW_FT" target="_main">Sell under Amazon Accelerator</a>
+                    <a href="sell.amazon.in/brand-registry/?ref=AOINABRLGNRFOOT&ld=AOINABRLGNRFOOT" target="_main">Protect and Build Your Brand</a>
+                    <a href="https://sell.amazon.in/grow-your-business/amazon-global-selling?ld=AZIN_Footer_V1&ref=AZIN_Footer_V1" target="_main">Amazon Global Selling</a>
+                    <a href="supply.amazon.com/?ref_=footer_sta&lang=en-IN" target="_main">Supply to Amazon</a>
+                    <a href="https://affiliate-program.amazon.in/?utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW&ref_=footer_assoc" target="_main">Become an Affiliate</a>
+                    <a href="https://sell.amazon.in/?ref_=asin_soa_rd&ld=AWRGINFBAfooter" target="_main">Fulfilment by Amazon</a>
+                    <a href="http://advertising.amazon.com/en-gb?ref=Amz.in" target="_main">Advertise Your Products</a>
+                    <a href="https://www.amazon.in/amazonpay/home" target="_main">Amazon Pay on Merchants</a>
+            </ul>
+
+            <ul>
+                <p>Let Us Help You</p>
+                    <a href="https://www.amazon.in/gp/css/homepage.html?ref_=footer_ya" target="_main">Your Account</a>
+                    <a href="signin.html" target="_main">Returns Centre</a>
+                    <a href="signin.html" target="_main">Recalls and Product Safety Alerts</a>
+                    <a href="https://www.amazon.in/gp/help/customer/display.html?nodeId=G202034930&ref_=footer_swc" target="_main">100% Purchase Protection</a>
+                    <a href="https://www.amazon.in/gp/browse.html?node=6967393031&ref_=footer_mobapp" target="_main">Amazon App Download</a>
+                    <a href="https://www.amazon.in/gp/help/customer/display.html?nodeId=G508510&ref_=footer_gw_m_b_he" target="_main">Help</a>
+            </ul>
+
+        </div>
+
+        <div class="foot-panel3">
+            <div class="pages">
+                <a>Conditions of Use</a>
+                <a>Privacy Notice</a>
+                <a>Your Ads Privacy Choices</a>
+            </div>
+
+            <div class="copyright">
+                c 1996-2023, Amazon.com,Inc or its affiliates
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="/src/script/cart.js"></script>
+</body>
+</html>
