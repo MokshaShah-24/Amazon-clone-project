@@ -33,6 +33,7 @@
     width: 100%;
     height: 50px;
 }
+
 .border
 {
     border: 2px solid transparent;
@@ -555,14 +556,6 @@ ul{
     padding-top: 5px; 
     text-align: center;
     font-weight: 540;
-}
-
-.logo
-{
-    background-image: url("images/amazonjob_logo.png");
-    background-size: cover;
-    height: 50px;
-    width: 100%;
 }
 
 
