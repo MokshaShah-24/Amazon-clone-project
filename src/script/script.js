@@ -41,30 +41,35 @@ if (registerForm) {
 // array of electronics product
 const products = [
   {
+    id: 1,
     image: "/assets/Images/headphone_image.png",
     title: "Headphones",
     price: 1999
   },
 
   {
+    id: 2,
     image: "/assets/Images/iphone_image.png",
     title: "iPhone",
     price: 89999
   },
 
   {
+    id: 3,
     image: "/assets/Images/laptop_image.png",
     title: "Laptop",
     price: 39999
   },
 
   {
+    id: 4,
     image: "/assets/Images/bluetooth_image.png",
     title: "Bluetooth",
     price: 999
   },
 
   {
+    id: 5,
     image: "/assets/Images/speaker_image.png",
     title: "Speaker",
     price: 4999
@@ -138,7 +143,7 @@ const books = [
 
 
 //electronics product 
-const productsContainer = document.querySelector(".products-section");
+const productsContainer = document.querySelector(".products-container");
 
 products.forEach((product) => {
 
@@ -152,7 +157,7 @@ products.forEach((product) => {
       
       <p>₹${product.price}</p>
 
-      <button>Add to Cart</button>
+     <button onclick="addToCart(${product.id})">Add To Cart</button>
 
     </div>
 
@@ -183,7 +188,7 @@ let booksWrapper = document.querySelector(".books-wrapper");
 
 let scrollAmount = 0;
 
-constmaxScroll = booksContainer.scrollWidth - booksContainer.clientWidth;
+const maxScroll = booksContainer.scrollWidth - booksContainer.clientWidth;
 
 nextBtn.addEventListener("click", () =>
 {
@@ -208,3 +213,43 @@ prevBtn.addEventListener("click",() =>
 
     booksContainer.style.transform = `translateX(-${scrollAmount}px)`;
 });
+
+// cart logic in home page
+let cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+function addToCart(id)
+{
+  const selectedProduct = products.find((product) => product.id == id);
+
+  cart.push(selectedProduct);
+
+    localStorage.setItem("cart",JSON.stringify(cart));
+
+    updateCartCount();
+    alert("Product Added To Cart");
+}
+
+function updateCartCount()
+{
+  document.getElementById("cart-count").innerText = cart.length;
+
+}
+
+function addToCart(id)
+{
+  const selectedProduct = products.find(
+    (product) => product.id == id
+  );
+
+  cart.push(selectedProduct);
+
+  localStorage.setItem("cart", JSON.stringify(cart));
+
+  updateCartCount();
+
+  alert("Product Added To Cart");
+
+  window.location.href = "/src/html/cart.html";
+}
+
+updateCartCount();
